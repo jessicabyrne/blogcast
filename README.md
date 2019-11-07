@@ -1,3 +1,4 @@
-bl# Completed Project: Building Lists and Navigation
+# Want your favorite blogs on your commute?
+blogcast will read them to you.
 
-Explore the completed project for the [Building Lists and Navigation](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation) tutorial.
+Based off of [SwiftUI Tutorial](https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation) tutorial.

@@ -19,30 +19,22 @@
         "imageName": "invisibilia"
     },
     {
-        "title": "Chilkoot Trail",
+        "title": "Financial Panther",
         "category": "Rivers",
         "city": "Skagway",
         "state": "Alaska",
         "id": 5,
-        "description": "Klondike Gold Rush National Historical Park",
-        "coordinates": {
-            "longitude": -135.334571,
-            "latitude": 59.560551
-        },
-        "imageName": "chilkoottrail"
+        "description": "Personal finance, travel hacking, and making more money by side hustling",
+        "imageName": "financialpanther"
     },
     {
-        "title": "St. Mary Lake",
+        "title": "Coding Horror",
         "category": "Lakes",
         "city": "Browning",
         "state": "Montana",
         "id": 8,
-        "description": "Glacier National Park",
-        "coordinates": {
-            "longitude": -113.536248,
-            "latitude": 48.69423
-        },
-        "imageName": "stmarylake"
+        "description": "programming and human factors",
+        "imageName": "codinghorror"
     },
     {
         "title": "Twin Lake",

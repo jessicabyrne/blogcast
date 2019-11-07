@@ -2,32 +2,32 @@
 See LICENSE folder for this sample’s licensing information.
 
 Abstract:
-A view showing the details for a landmark.
+A view showing the details for a blog.
 */
 
 import SwiftUI
 
-struct LandmarkDetail: View {
-    var landmark: Landmark
+struct BlogDetail: View {
+    var blog: Blog
 
     var body: some View {
         VStack {
-            MapView(coordinate: landmark.locationCoordinate)
+            MapView(coordinate: blog.locationCoordinate)
                 .frame(height: 300)
 
-            CircleImage(image: landmark.image)
+            CircleImage(image: blog.image)
                 .offset(x: 0, y: -130)
                 .padding(.bottom, -130)
 
             VStack(alignment: .leading) {
-                Text(landmark.name)
+                Text(blog.name)
                     .font(.title)
 
                 HStack(alignment: .top) {
-                    Text(landmark.park)
+                    Text(blog.park)
                         .font(.subheadline)
                     Spacer()
-                    Text(landmark.state)
+                    Text(blog.state)
                         .font(.subheadline)
                 }
             }
@@ -35,12 +35,12 @@ struct LandmarkDetail: View {
 
             Spacer()
         }
-        .navigationBarTitle(Text(verbatim: landmark.name), displayMode: .inline)
+        .navigationBarTitle(Text(verbatim: blog.name), displayMode: .inline)
     }
 }
 
-struct LandmarkDetail_Previews: PreviewProvider {
+struct BlogDetail_Previews: PreviewProvider {
     static var previews: some View {
-        LandmarkDetail(landmark: landmarkData[0])
+        BlogDetail(blog: blogData[0])
     }
 }

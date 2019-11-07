@@ -2,13 +2,13 @@
 See LICENSE folder for this sample’s licensing information.
 
 Abstract:
-The model for an individual landmark.
+The model for an individual blog.
 */
 
 import SwiftUI
 import CoreLocation
 
-struct Landmark: Hashable, Codable, Identifiable {
+struct Blog: Hashable, Codable, Identifiable {
     var id: Int
     var name: String
     fileprivate var imageName: String
@@ -30,7 +30,7 @@ struct Landmark: Hashable, Codable, Identifiable {
     }
 }
 
-extension Landmark {
+extension Blog {
     var image: Image {
         ImageStore.shared.image(name: imageName)
     }

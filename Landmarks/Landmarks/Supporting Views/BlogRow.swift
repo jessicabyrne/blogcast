@@ -2,30 +2,30 @@
 See LICENSE folder for this sample’s licensing information.
 
 Abstract:
-A single row to be displayed in a list of landmarks.
+A single row to be displayed in a list of blogs.
 */
 
 import SwiftUI
 
-struct LandmarkRow: View {
-    var landmark: Landmark
+struct BlogRow: View {
+    var blog: Blog
 
     var body: some View {
         HStack {
-            landmark.image
+            blog.image
                 .resizable()
                 .frame(width: 50, height: 50)
-            Text(verbatim: landmark.name)
+            Text(verbatim: blog.name)
             Spacer()
         }
     }
 }
 
-struct LandmarkRow_Previews: PreviewProvider {
+struct BlogRow_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            LandmarkRow(landmark: landmarkData[0])
-            LandmarkRow(landmark: landmarkData[1])
+            BlogRow(blog: blogData[0])
+            BlogRow(blog: blogData[1])
         }
         .previewLayout(.fixed(width: 300, height: 70))
     }

@@ -24,6 +24,6 @@ struct MapView: UIViewRepresentable {
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
-        MapView(coordinate: landmarkData[0].locationCoordinate)
+        MapView(coordinate: blogData[0].locationCoordinate)
     }
 }

@@ -10,18 +10,12 @@ import CoreLocation
 
 struct Blog: Hashable, Codable, Identifiable {
     var id: Int
-    var name: String
+    var title: String
     fileprivate var imageName: String
-    fileprivate var coordinates: Coordinates
     var state: String
-    var park: String
+    var description: String
     var category: Category
 
-    var locationCoordinate: CLLocationCoordinate2D {
-        CLLocationCoordinate2D(
-            latitude: coordinates.latitude,
-            longitude: coordinates.longitude)
-    }
 
     enum Category: String, CaseIterable, Codable, Hashable {
         case featured = "Featured"
@@ -36,7 +30,3 @@ extension Blog {
     }
 }
 
-struct Coordinates: Hashable, Codable {
-    var latitude: Double
-    var longitude: Double
-}

@@ -16,7 +16,6 @@
 		B739486F229F194200C47603 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B739486E229F194200C47603 /* Preview Assets.xcassets */; };
 		B7394872229F194200C47603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7394870229F194200C47603 /* LaunchScreen.storyboard */; };
 		B739487A229F1B3F00C47603 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394879229F1B3F00C47603 /* CircleImage.swift */; };
-		B739487C229F1B6800C47603 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B739487B229F1B6800C47603 /* MapView.swift */; };
 		B7394881229F28B900C47603 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = B739487F229F28B900C47603 /* Landmark.swift */; };
 		B7394882229F28B900C47603 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394880229F28B900C47603 /* Data.swift */; };
 		B7394891229F292F00C47603 /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7394884229F292D00C47603 /* rainbowlake.jpg */; };
@@ -50,7 +49,6 @@
 		B7394871229F194200C47603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7394873229F194200C47603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7394879229F1B3F00C47603 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
-		B739487B229F1B6800C47603 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		B739487F229F28B900C47603 /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		B7394880229F28B900C47603 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		B7394884229F292D00C47603 /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
@@ -149,7 +147,6 @@
 			isa = PBXGroup;
 			children = (
 				B7394879229F1B3F00C47603 /* CircleImage.swift */,
-				B739487B229F1B6800C47603 /* MapView.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -274,7 +271,6 @@
 				B7394882229F28B900C47603 /* Data.swift in Sources */,
 				B7394866229F194000C47603 /* AppDelegate.swift in Sources */,
 				B739487A229F1B3F00C47603 /* CircleImage.swift in Sources */,
-				B739487C229F1B6800C47603 /* MapView.swift in Sources */,
 				B73948A1229F2E1F00C47603 /* BlogList.swift in Sources */,
 				B7394868229F194000C47603 /* SceneDelegate.swift in Sources */,
 				B739486A229F194000C47603 /* BlogDetail.swift in Sources */,

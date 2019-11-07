@@ -1,37 +1,30 @@
 [
     {
-        "name": "How I Built This",
+        "title": "How I Built This",
         "category": "Featured",
         "city": "Twentynine Palms",
         "state": "NPR",
         "id": 1001,
-        "park": "Innovators, entrepreneurs, idealists, and the stories behind the movements they built",
-        "coordinates": {
-            "longitude": -116.166868,
-            "latitude": 34.011286
-        },
+        "description": "Innovators, entrepreneurs, idealists, and the stories behind the movements they built",
+      
         "imageName": "howibuiltthis"
     },
     {
-        "name": "Invisibilia",
+        "title": "Invisibilia",
         "category": "Lakes",
         "city": "Port Alsworth",
         "state": "NPR",
         "id": 4,
-        "park": "Unseeable forces control human behavior and shape our ideas, beliefs, and assumptions.",
-        "coordinates": {
-            "longitude": -152.665167,
-            "latitude": 59.980167
-        },
+        "description": "Unseeable forces control human behavior and shape our ideas, beliefs, and assumptions.",
         "imageName": "invisibilia"
     },
     {
-        "name": "Chilkoot Trail",
+        "title": "Chilkoot Trail",
         "category": "Rivers",
         "city": "Skagway",
         "state": "Alaska",
         "id": 5,
-        "park": "Klondike Gold Rush National Historical Park",
+        "description": "Klondike Gold Rush National Historical Park",
         "coordinates": {
             "longitude": -135.334571,
             "latitude": 59.560551
@@ -39,12 +32,12 @@
         "imageName": "chilkoottrail"
     },
     {
-        "name": "St. Mary Lake",
+        "title": "St. Mary Lake",
         "category": "Lakes",
         "city": "Browning",
         "state": "Montana",
         "id": 8,
-        "park": "Glacier National Park",
+        "description": "Glacier National Park",
         "coordinates": {
             "longitude": -113.536248,
             "latitude": 48.69423
@@ -52,12 +45,12 @@
         "imageName": "stmarylake"
     },
     {
-        "name": "Twin Lake",
+        "title": "Twin Lake",
         "category": "Lakes",
         "city": "Twin Lakes",
         "state": "Alaska",
         "id": 11,
-        "park": "Lake Clark National Park and Preserve",
+        "description": "Lake Clark National Park and Preserve",
         "coordinates": {
             "longitude": -153.849883,
             "latitude": 60.641684
@@ -65,12 +58,12 @@
         "imageName": "twinlake"
     },
     {
-        "name": "Lake McDonald",
+        "title": "Lake McDonald",
         "category": "Lakes",
         "city": "West Glacier",
         "state": "Montana",
         "id": 6,
-        "park": "Glacier National Park",
+        "description": "Glacier National Park",
         "coordinates": {
             "longitude": -113.934831,
             "latitude": 48.56002
@@ -78,12 +71,12 @@
         "imageName": "lakemcdonald"
     },
     {
-        "name": "Charley Rivers",
+        "title": "Charley Rivers",
         "category": "Rivers",
         "city": "Eaking",
         "state": "Alaska",
         "id": 1,
-        "park": "Charley Rivers National Preserve",
+        "description": "Charley Rivers National Preserve",
         "coordinates": {
             "longitude": -143.122586,
             "latitude": 65.350021
@@ -91,12 +84,12 @@
         "imageName": "yukon_charleyrivers"
     },
     {
-        "name": "Icy Bay",
+        "title": "Icy Bay",
         "category": "Lakes",
         "city": "Icy Bay",
         "state": "Alaska",
         "id": 2,
-        "park": "Wrangell-St. Elias National Park and Preserve",
+        "description": "Wrangell-St. Elias National Park and Preserve",
         "coordinates": {
             "longitude": -141.518167,
             "latitude": 60.089917
@@ -104,12 +97,12 @@
         "imageName": "icybay"
     },
     {
-        "name": "Rainbow Lake",
+        "title": "Rainbow Lake",
         "category": "Lakes",
         "city": "Willow",
         "state": "Alaska",
         "id": 3,
-        "park": "State Recreation Area",
+        "description": "State Recreation Area",
         "coordinates": {
             "longitude": -150.086103,
             "latitude": 61.694334
@@ -117,12 +110,12 @@
         "imageName": "rainbowlake"
     },
     {
-        "name": "Hidden Lake",
+        "title": "Hidden Lake",
         "category": "Lakes",
         "city": "Newhalem",
         "state": "Washington",
         "id": 7,
-        "park": "North Cascades National Park",
+        "description": "North Cascades National Park",
         "coordinates": {
             "longitude": -121.17799,
             "latitude": 48.495442
@@ -130,12 +123,12 @@
         "imageName": "hiddenlake"
     },
     {
-        "name": "Chincoteague",
+        "title": "Chincoteague",
         "category": "Rivers",
         "city": "Chincoteague",
         "state": "Virginia",
         "id": 9,
-        "park": "Chincoteague National Wildlife Refuge",
+        "description": "Chincoteague National Wildlife Refuge",
         "coordinates": {
             "longitude": -75.383212,
             "latitude": 37.91531
@@ -143,12 +136,12 @@
         "imageName": "chincoteague"
     },
     {
-        "name": "Lake Umbagog",
+        "title": "Lake Umbagog",
         "category": "Lakes",
         "city": "Errol",
         "state": "New Hampshire",
         "id": 10,
-        "park": "Umbagog National Wildlife Refuge",
+        "description": "Umbagog National Wildlife Refuge",
         "coordinates": {
             "longitude": -71.056816,
             "latitude": 44.747408

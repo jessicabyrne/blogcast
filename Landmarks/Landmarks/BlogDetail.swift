@@ -20,11 +20,11 @@ struct BlogDetail: View {
 
 
             VStack(alignment: .leading) {
-                Text(blog.name)
+                Text(blog.title)
                     .font(.title)
 
                 HStack(alignment: .top) {
-                    Text(blog.park)
+                    Text(blog.description)
                         .font(.subheadline)
                     Spacer()
                     Text(blog.state)
@@ -35,7 +35,7 @@ struct BlogDetail: View {
 
             Spacer()
         }
-        .navigationBarTitle(Text(verbatim: blog.name), displayMode: .inline)
+        .navigationBarTitle(Text(verbatim: blog.title), displayMode: .inline)
     }
 }
 

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9A5E32D623746DDC008ED852 /* howibuiltthis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A5E32D523746DDC008ED852 /* howibuiltthis.jpg */; };
+		9A5E32D8237470BC008ED852 /* invisibilia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A5E32D7237470BC008ED852 /* invisibilia.jpg */; };
 		B7394866229F194000C47603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394865229F194000C47603 /* AppDelegate.swift */; };
 		B7394868229F194000C47603 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394867229F194000C47603 /* SceneDelegate.swift */; };
 		B739486A229F194000C47603 /* BlogDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394869229F194000C47603 /* BlogDetail.swift */; };
@@ -39,6 +40,7 @@
 		19EE3BF019EE35A000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		1BD16D301BD0EC2000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		9A5E32D523746DDC008ED852 /* howibuiltthis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = howibuiltthis.jpg; sourceTree = "<group>"; };
+		9A5E32D7237470BC008ED852 /* invisibilia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = invisibilia.jpg; sourceTree = "<group>"; };
 		B7394862229F194000C47603 /* blogcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blogcast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7394865229F194000C47603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7394867229F194000C47603 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 				B7394884229F292D00C47603 /* rainbowlake.jpg */,
 				B739488D229F292E00C47603 /* silversalmoncreek.jpg */,
 				B739488B229F292E00C47603 /* stmarylake.jpg */,
+				9A5E32D7237470BC008ED852 /* invisibilia.jpg */,
 				B7394888229F292E00C47603 /* turtlerock.jpg */,
 				9A5E32D523746DDC008ED852 /* howibuiltthis.jpg */,
 				B739488C229F292E00C47603 /* twinlake.jpg */,
@@ -245,6 +248,7 @@
 				B7394872229F194200C47603 /* LaunchScreen.storyboard in Resources */,
 				B7394891229F292F00C47603 /* rainbowlake.jpg in Resources */,
 				B739486F229F194200C47603 /* Preview Assets.xcassets in Resources */,
+				9A5E32D8237470BC008ED852 /* invisibilia.jpg in Resources */,
 				B7394895229F292F00C47603 /* turtlerock.jpg in Resources */,
 				B739486C229F194200C47603 /* Assets.xcassets in Resources */,
 				B7394899229F292F00C47603 /* twinlake.jpg in Resources */,

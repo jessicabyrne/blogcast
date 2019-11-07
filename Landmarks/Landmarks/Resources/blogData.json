@@ -3,9 +3,9 @@
         "name": "How I Built This",
         "category": "Featured",
         "city": "Twentynine Palms",
-        "state": "California",
+        "state": "NPR",
         "id": 1001,
-        "park": "Joshua Tree National Park",
+        "park": "Innovators, entrepreneurs, idealists, and the stories behind the movements they built",
         "coordinates": {
             "longitude": -116.166868,
             "latitude": 34.011286
@@ -13,17 +13,17 @@
         "imageName": "howibuiltthis"
     },
     {
-        "name": "Silver Salmon Creek",
+        "name": "Invisibilia",
         "category": "Lakes",
         "city": "Port Alsworth",
-        "state": "Alaska",
+        "state": "NPR",
         "id": 4,
-        "park": "Lake Clark National Park and Preserve",
+        "park": "Unseeable forces control human behavior and shape our ideas, beliefs, and assumptions.",
         "coordinates": {
             "longitude": -152.665167,
             "latitude": 59.980167
         },
-        "imageName": "silversalmoncreek"
+        "imageName": "invisibilia"
     },
     {
         "name": "Chilkoot Trail",

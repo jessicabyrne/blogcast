@@ -12,12 +12,12 @@ struct BlogDetail: View {
 
     var body: some View {
         VStack {
-            MapView(coordinate: blog.locationCoordinate)
-                .frame(height: 300)
+            
 
             CircleImage(image: blog.image)
-                .offset(x: 0, y: -130)
-                .padding(.bottom, -130)
+                .padding(.bottom, 30)
+                .padding(.top, 30)
+
 
             VStack(alignment: .leading) {
                 Text(blog.name)

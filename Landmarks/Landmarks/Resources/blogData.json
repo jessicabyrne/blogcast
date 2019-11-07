@@ -1,6 +1,6 @@
 [
     {
-        "name": "Turtle Rock",
+        "name": "How I Built This",
         "category": "Featured",
         "city": "Twentynine Palms",
         "state": "California",
@@ -10,7 +10,7 @@
             "longitude": -116.166868,
             "latitude": 34.011286
         },
-        "imageName": "turtlerock"
+        "imageName": "howibuiltthis"
     },
     {
         "name": "Silver Salmon Creek",

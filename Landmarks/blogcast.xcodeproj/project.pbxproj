@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A5E32D623746DDC008ED852 /* howibuiltthis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A5E32D523746DDC008ED852 /* howibuiltthis.jpg */; };
 		B7394866229F194000C47603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394865229F194000C47603 /* AppDelegate.swift */; };
 		B7394868229F194000C47603 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394867229F194000C47603 /* SceneDelegate.swift */; };
 		B739486A229F194000C47603 /* BlogDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394869229F194000C47603 /* BlogDetail.swift */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		19EE3BF019EE35A000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		1BD16D301BD0EC2000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		9A5E32D523746DDC008ED852 /* howibuiltthis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = howibuiltthis.jpg; sourceTree = "<group>"; };
 		B7394862229F194000C47603 /* blogcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blogcast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7394865229F194000C47603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7394867229F194000C47603 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 				B739488D229F292E00C47603 /* silversalmoncreek.jpg */,
 				B739488B229F292E00C47603 /* stmarylake.jpg */,
 				B7394888229F292E00C47603 /* turtlerock.jpg */,
+				9A5E32D523746DDC008ED852 /* howibuiltthis.jpg */,
 				B739488C229F292E00C47603 /* twinlake.jpg */,
 				B7394889229F292E00C47603 /* umbagog.jpg */,
 				B7394885229F292D00C47603 /* yukon_charleyrivers.jpg */,
@@ -253,6 +256,7 @@
 				B7394897229F292F00C47603 /* hiddenlake.jpg in Resources */,
 				B7394898229F292F00C47603 /* stmarylake.jpg in Resources */,
 				B7394892229F292F00C47603 /* yukon_charleyrivers.jpg in Resources */,
+				9A5E32D623746DDC008ED852 /* howibuiltthis.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

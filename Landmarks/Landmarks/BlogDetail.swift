@@ -12,8 +12,6 @@ struct BlogDetail: View {
 
     var body: some View {
         VStack {
-            
-
             CircleImage(image: blog.image)
                 .padding(.bottom, 30)
                 .padding(.top, 30)
@@ -27,7 +25,7 @@ struct BlogDetail: View {
                     Text(blog.description)
                         .font(.subheadline)
                     Spacer()
-                    Text(blog.state)
+                    Text(blog.link)
                         .font(.subheadline)
                 }
             }

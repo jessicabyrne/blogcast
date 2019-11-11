@@ -1,143 +1,29 @@
 [
     {
-        "title": "How I Built This",
-        "category": "Featured",
-        "city": "Twentynine Palms",
-        "state": "NPR",
         "id": 1001,
+        "title": "How I Built This",
+        "link": "www.howibuiltthis.com",
         "description": "Innovators, entrepreneurs, idealists, and the stories behind the movements they built",
-      
-        "imageName": "howibuiltthis"
+        "imageUrl": "https://financialpanther.com/wp-content/uploads/cropped-Financial-Panther-icon-1-32x32.png"
     },
     {
-        "title": "Invisibilia",
-        "category": "Lakes",
-        "city": "Port Alsworth",
-        "state": "NPR",
         "id": 4,
+        "title": "Invisibilia",
+        "link": "Port Alsworth",
         "description": "Unseeable forces control human behavior and shape our ideas, beliefs, and assumptions.",
-        "imageName": "invisibilia"
+        "imageUrl": "https://financialpanther.com/wp-content/uploads/cropped-Financial-Panther-icon-1-32x32.png"
     },
     {
-        "title": "Financial Panther",
-        "category": "Rivers",
-        "city": "Skagway",
-        "state": "Alaska",
         "id": 5,
+        "title": "Financial Panther",
+        "link": "www.financialpanther.com",
         "description": "Personal finance, travel hacking, and making more money by side hustling",
-        "imageName": "financialpanther"
+        "imageUrl": "https://financialpanther.com/wp-content/uploads/cropped-Financial-Panther-icon-1-32x32.png"
     },
     {
-        "title": "Coding Horror",
-        "category": "Lakes",
-        "city": "Browning",
-        "state": "Montana",
         "id": 8,
+        "title": "Coding Horror",
         "description": "programming and human factors",
-        "imageName": "codinghorror"
+        "imageUrl": "https://financialpanther.com/wp-content/uploads/cropped-Financial-Panther-icon-1-32x32.png"
     },
-    {
-        "title": "Twin Lake",
-        "category": "Lakes",
-        "city": "Twin Lakes",
-        "state": "Alaska",
-        "id": 11,
-        "description": "Lake Clark National Park and Preserve",
-        "coordinates": {
-            "longitude": -153.849883,
-            "latitude": 60.641684
-        },
-        "imageName": "twinlake"
-    },
-    {
-        "title": "Lake McDonald",
-        "category": "Lakes",
-        "city": "West Glacier",
-        "state": "Montana",
-        "id": 6,
-        "description": "Glacier National Park",
-        "coordinates": {
-            "longitude": -113.934831,
-            "latitude": 48.56002
-        },
-        "imageName": "lakemcdonald"
-    },
-    {
-        "title": "Charley Rivers",
-        "category": "Rivers",
-        "city": "Eaking",
-        "state": "Alaska",
-        "id": 1,
-        "description": "Charley Rivers National Preserve",
-        "coordinates": {
-            "longitude": -143.122586,
-            "latitude": 65.350021
-        },
-        "imageName": "yukon_charleyrivers"
-    },
-    {
-        "title": "Icy Bay",
-        "category": "Lakes",
-        "city": "Icy Bay",
-        "state": "Alaska",
-        "id": 2,
-        "description": "Wrangell-St. Elias National Park and Preserve",
-        "coordinates": {
-            "longitude": -141.518167,
-            "latitude": 60.089917
-        },
-        "imageName": "icybay"
-    },
-    {
-        "title": "Rainbow Lake",
-        "category": "Lakes",
-        "city": "Willow",
-        "state": "Alaska",
-        "id": 3,
-        "description": "State Recreation Area",
-        "coordinates": {
-            "longitude": -150.086103,
-            "latitude": 61.694334
-        },
-        "imageName": "rainbowlake"
-    },
-    {
-        "title": "Hidden Lake",
-        "category": "Lakes",
-        "city": "Newhalem",
-        "state": "Washington",
-        "id": 7,
-        "description": "North Cascades National Park",
-        "coordinates": {
-            "longitude": -121.17799,
-            "latitude": 48.495442
-        },
-        "imageName": "hiddenlake"
-    },
-    {
-        "title": "Chincoteague",
-        "category": "Rivers",
-        "city": "Chincoteague",
-        "state": "Virginia",
-        "id": 9,
-        "description": "Chincoteague National Wildlife Refuge",
-        "coordinates": {
-            "longitude": -75.383212,
-            "latitude": 37.91531
-        },
-        "imageName": "chincoteague"
-    },
-    {
-        "title": "Lake Umbagog",
-        "category": "Lakes",
-        "city": "Errol",
-        "state": "New Hampshire",
-        "id": 10,
-        "description": "Umbagog National Wildlife Refuge",
-        "coordinates": {
-            "longitude": -71.056816,
-            "latitude": 44.747408
-        },
-        "imageName": "umbagog"
-    }
 ]

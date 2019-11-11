@@ -8,12 +8,13 @@ A single row to be displayed in a list of blogs.
 import SwiftUI
 
 struct BlogRow: View {
+    @ObjectBinding var remoteImageURL: RemoteImageURL
     var blog: Blog
+    let model: Model
 
     var body: some View {
         HStack {
-            blog.image
-                .resizable()
+            ImageViewContainer(imageURL:model.imageURL)
                 .frame(width: 50, height: 50)
             Text(verbatim: blog.title)
             Spacer()

@@ -7,26 +7,34 @@ The model for an individual blog.
 
 import SwiftUI
 import CoreLocation
+import SDWebImage
 
 struct Blog: Hashable, Codable, Identifiable {
     var id: Int
     var title: String
-    fileprivate var imageName: String
-    var state: String
     var description: String
-    var category: Category
-
-
-    enum Category: String, CaseIterable, Codable, Hashable {
-        case featured = "Featured"
-        case lakes = "Lakes"
-        case rivers = "Rivers"
-    }
+    var link: String
+    var imageURL: String
 }
 
+struct Model: Identifiable {
+    var id = UUID()
+    var imageURL: String
+
+    static let imageURLArray: [Model] = [
+        .init(imageURL: "https://financialpanther.com/wp-content/uploads/cropped-Financial-Panther-icon-1-32x32.png"),
+        .init(imageURL:
+            "https://financialpanther.com/wp-content/uploads/cropped-Financial-Panther-icon-1-32x32.png"
+        )
+    ]
+}
+
+
 extension Blog {
-    var image: Image {
-        ImageStore.shared.image(name: imageName)
+    func loadImage() {
+
+    let imageURL = URL(string: "https://financialpanther.com/wp-content/uploads/cropped-Financial-Panther-icon-1-32x32.png")!
+    imageView.sd_setImage(with: URL(string: "http://www.domain.com/path/to/image.jpg"), placeholderImage: UIImage(named: "placeholder.png"))
     }
 }
 

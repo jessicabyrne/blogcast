@@ -7,7 +7,6 @@ The model for an individual blog.
 
 import SwiftUI
 import CoreLocation
-import SDWebImageSwiftUI
 
 
 struct Blog: Hashable, Codable, Identifiable {

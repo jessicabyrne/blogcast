@@ -7,7 +7,7 @@ The model for an individual blog.
 
 import SwiftUI
 import CoreLocation
-import SDWebImage
+import SDWebImageSwiftUI
 
 
 struct Blog: Hashable, Codable, Identifiable {
@@ -20,7 +20,10 @@ struct Blog: Hashable, Codable, Identifiable {
 
 extension Blog {
     var image: Image {
-        imageView.sd_setImage(with: URL(string: imageUrl), placeholderImage: UIImage(named: "noimageavailable.png"))
+        WebImage(url: URL(string: imageURL))
+        .onSuccess { image, cacheType in
+            // Success
+        }
     }
 }
 

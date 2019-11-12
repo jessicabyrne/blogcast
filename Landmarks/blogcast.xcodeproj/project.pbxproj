@@ -11,7 +11,7 @@
 		9A5E32D8237470BC008ED852 /* invisibilia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A5E32D7237470BC008ED852 /* invisibilia.jpg */; };
 		9A5E32DA237481C4008ED852 /* financialpanther.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A5E32D9237481C4008ED852 /* financialpanther.jpg */; };
 		9A5E32DC237484B1008ED852 /* codinghorror.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A5E32DB237484B1008ED852 /* codinghorror.jpg */; };
-		9AFFAC4A237B20F2001A2854 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 9AFFAC49237B20F2001A2854 /* SDWebImage */; };
+		9AFFAC4D237B2563001A2854 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9AFFAC4C237B2563001A2854 /* SDWebImageSwiftUI */; };
 		B7394866229F194000C47603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394865229F194000C47603 /* AppDelegate.swift */; };
 		B7394868229F194000C47603 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394867229F194000C47603 /* SceneDelegate.swift */; };
 		B739486A229F194000C47603 /* BlogDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394869229F194000C47603 /* BlogDetail.swift */; };
@@ -79,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AFFAC4A237B20F2001A2854 /* SDWebImage in Frameworks */,
+				9AFFAC4D237B2563001A2854 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,7 +207,7 @@
 			);
 			name = Landmarks;
 			packageProductDependencies = (
-				9AFFAC49237B20F2001A2854 /* SDWebImage */,
+				9AFFAC4C237B2563001A2854 /* SDWebImageSwiftUI */,
 			);
 			productName = Landmarks;
 			productReference = B7394862229F194000C47603 /* blogcast.app */;
@@ -238,7 +238,7 @@
 			);
 			mainGroup = B7394859229F194000C47603;
 			packageReferences = (
-				9AFFAC48237B20F2001A2854 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				9AFFAC4B237B2563001A2854 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = B7394863229F194000C47603 /* Products */;
 			projectDirPath = "";
@@ -493,21 +493,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9AFFAC48237B20F2001A2854 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+		9AFFAC4B237B2563001A2854 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 5.3.1;
+				minimumVersion = 0.8.3;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9AFFAC49237B20F2001A2854 /* SDWebImage */ = {
+		9AFFAC4C237B2563001A2854 /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9AFFAC48237B20F2001A2854 /* XCRemoteSwiftPackageReference "SDWebImage" */;
-			productName = SDWebImage;
+			package = 9AFFAC4B237B2563001A2854 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

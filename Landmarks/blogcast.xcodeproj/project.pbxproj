@@ -12,8 +12,9 @@
 		9A5E32DA237481C4008ED852 /* financialpanther.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A5E32D9237481C4008ED852 /* financialpanther.jpg */; };
 		9A5E32DC237484B1008ED852 /* codinghorror.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A5E32DB237484B1008ED852 /* codinghorror.jpg */; };
 		9AFFAC3F2379FD21001A2854 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 9AFFAC3E2379FD21001A2854 /* SDWebImage */; };
-		9AFFAC41237A100B001A2854 /* RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFAC40237A100B001A2854 /* RemoteImageView.swift */; };
+		9AFFAC41237A100B001A2854 /* ImageViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFAC40237A100B001A2854 /* ImageViewContainer.swift */; };
 		9AFFAC43237A1941001A2854 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFAC42237A1941001A2854 /* ContentView.swift */; };
+		9AFFAC45237AF900001A2854 /* RemoteImageURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFAC44237AF900001A2854 /* RemoteImageURL.swift */; };
 		B7394866229F194000C47603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394865229F194000C47603 /* AppDelegate.swift */; };
 		B7394868229F194000C47603 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394867229F194000C47603 /* SceneDelegate.swift */; };
 		B739486A229F194000C47603 /* BlogDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394869229F194000C47603 /* BlogDetail.swift */; };
@@ -47,8 +48,9 @@
 		9A5E32D7237470BC008ED852 /* invisibilia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = invisibilia.jpg; sourceTree = "<group>"; };
 		9A5E32D9237481C4008ED852 /* financialpanther.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = financialpanther.jpg; sourceTree = "<group>"; };
 		9A5E32DB237484B1008ED852 /* codinghorror.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = codinghorror.jpg; sourceTree = "<group>"; };
-		9AFFAC40237A100B001A2854 /* RemoteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageView.swift; sourceTree = "<group>"; };
+		9AFFAC40237A100B001A2854 /* ImageViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewContainer.swift; sourceTree = "<group>"; };
 		9AFFAC42237A1941001A2854 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9AFFAC44237AF900001A2854 /* RemoteImageURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageURL.swift; sourceTree = "<group>"; };
 		B7394862229F194000C47603 /* blogcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blogcast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7394865229F194000C47603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7394867229F194000C47603 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -135,7 +137,7 @@
 				B73948A0229F2E1F00C47603 /* BlogList.swift */,
 				B739489E229F2D9700C47603 /* BlogRow.swift */,
 				B7394869229F194000C47603 /* BlogDetail.swift */,
-				9AFFAC40237A100B001A2854 /* RemoteImageView.swift */,
+				9AFFAC40237A100B001A2854 /* ImageViewContainer.swift */,
 				B739487D229F1C0100C47603 /* Supporting Views */,
 				B7394883229F291A00C47603 /* Resources */,
 				B739486B229F194200C47603 /* Assets.xcassets */,
@@ -143,6 +145,7 @@
 				B7394873229F194200C47603 /* Info.plist */,
 				B739486D229F194200C47603 /* Preview Content */,
 				9AFFAC42237A1941001A2854 /* ContentView.swift */,
+				9AFFAC44237AF900001A2854 /* RemoteImageURL.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -291,11 +294,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7394882229F28B900C47603 /* Data.swift in Sources */,
-				9AFFAC41237A100B001A2854 /* RemoteImageView.swift in Sources */,
+				9AFFAC41237A100B001A2854 /* ImageViewContainer.swift in Sources */,
 				B7394866229F194000C47603 /* AppDelegate.swift in Sources */,
 				B739487A229F1B3F00C47603 /* CircleImage.swift in Sources */,
 				B73948A1229F2E1F00C47603 /* BlogList.swift in Sources */,
 				B7394868229F194000C47603 /* SceneDelegate.swift in Sources */,
+				9AFFAC45237AF900001A2854 /* RemoteImageURL.swift in Sources */,
 				9AFFAC43237A1941001A2854 /* ContentView.swift in Sources */,
 				B739486A229F194000C47603 /* BlogDetail.swift in Sources */,
 				B739489F229F2D9700C47603 /* BlogRow.swift in Sources */,

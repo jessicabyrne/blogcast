@@ -7,14 +7,15 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(Model.imageURLArray.identified(by: \.id)) { model in
-                    ImageRow(model: model)
-                    } .navigationBarTitle(Text("LoadRemoteIamges"))
+                ForEach(Model.imageURLArray) { model in
+                    BlogRow(model: model, remoteImageURL: remoteImageURL)
+                    } .navigationBarTitle(Text("Load Remote Images"))
             }
         }
     }

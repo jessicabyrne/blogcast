@@ -1,11 +1,13 @@
 /*
 See LICENSE folder for this sample’s licensing information.
-
+https://developer.apple.com/documentation/ios_ipados_release_notes/ios_13_release_notes
+ 
 Abstract:
 The model for an individual blog.
 */
 
 import SwiftUI
+import Combine
 import CoreLocation
 import SDWebImage
 
@@ -28,6 +30,7 @@ struct Model: Identifiable {
         )
     ]
 }
+
 
 
 extension Blog {

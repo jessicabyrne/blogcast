@@ -14,7 +14,7 @@ struct ImageView: View {
     @State var image:UIImage = UIImage()
     
     init(withURL url:String) {
-        imageLoader = ImageLoader(imageURL:url)
+        imageLoader = ImageLoader(urlString:url)
     }
     
     var body: some View {

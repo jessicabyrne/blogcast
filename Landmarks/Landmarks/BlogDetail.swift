@@ -27,7 +27,7 @@ struct BlogDetail: View {
                     Text(blog.description)
                         .font(.subheadline)
                     Spacer()
-                    Text(blog.state)
+                    Text(blog.link)
                         .font(.subheadline)
                 }
             }

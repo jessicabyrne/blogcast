@@ -12,9 +12,7 @@ struct BlogDetail: View {
 
     var body: some View {
         VStack {
-            
-
-            CircleImage(image: blog.image)
+            CircleImage(image: AnyView(ImageView(withURL: blog.imageURL)))
                 .padding(.bottom, 30)
                 .padding(.top, 30)
 

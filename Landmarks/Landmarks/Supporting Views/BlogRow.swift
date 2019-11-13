@@ -12,9 +12,7 @@ struct BlogRow: View {
 
     var body: some View {
         HStack {
-            blog.image
-                .resizable()
-                .frame(width: 50, height: 50)
+            ImageView(withURL: blog.imageURL)
             Text(verbatim: blog.title)
             Spacer()
         }

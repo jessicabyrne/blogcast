@@ -10,10 +10,10 @@ import Combine
 import Foundation
 
 class ImageLoader: ObservableObject {
-    let didChange = PassthroughSubject<Data, Never>()
+    var dataPublisher = PassthroughSubject<Data, Never>()
     var data = Data() {
         didSet {
-            didChange.send(data)
+            dataPublisher.send(data)
         }
     }
     

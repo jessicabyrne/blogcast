@@ -1,29 +1,30 @@
 [
     {
-        "id": 1001,
+        "id": 1,
         "title": "How I Built This",
         "link": "www.howibuiltthis.com",
         "description": "Innovators, entrepreneurs, idealists, and the stories behind the movements they built",
-        "imageUrl": "https://financialpanther.com/wp-content/uploads/cropped-Financial-Panther-icon-1-32x32.png"
+        "imageURL": "https://i2.wp.com/financialmechanic.com/wp-content/uploads/2018/12/cropped-imageedit_3_3703828968.png?fit=32%2C32&#038;ssl=1"
     },
     {
-        "id": 4,
+        "id": 2,
         "title": "Invisibilia",
         "link": "Port Alsworth",
         "description": "Unseeable forces control human behavior and shape our ideas, beliefs, and assumptions.",
-        "imageUrl": "https://financialpanther.com/wp-content/uploads/cropped-Financial-Panther-icon-1-32x32.png"
+        "imageURL": "https://financialpanther.com/wp-content/uploads/cropped-Financial-Panther-icon-1-32x32.png"
     },
     {
-        "id": 5,
+        "id": 3,
         "title": "Financial Panther",
         "link": "www.financialpanther.com",
         "description": "Personal finance, travel hacking, and making more money by side hustling",
-        "imageUrl": "https://financialpanther.com/wp-content/uploads/cropped-Financial-Panther-icon-1-32x32.png"
+        "imageURL": "https://financialpanther.com/wp-content/uploads/cropped-Financial-Panther-icon-1-32x32.png"
     },
     {
-        "id": 8,
+        "id": 4,
         "title": "Coding Horror",
+        "link": "www.financialpanther.com",
         "description": "programming and human factors",
-        "imageUrl": "https://financialpanther.com/wp-content/uploads/cropped-Financial-Panther-icon-1-32x32.png"
+        "imageURL": "https://blog.codinghorror.com/favicon.png"
     },
 ]

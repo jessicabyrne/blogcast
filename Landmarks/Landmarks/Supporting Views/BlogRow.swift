@@ -15,8 +15,7 @@ struct BlogRow: View {
 
     var body: some View {
         HStack {
-            ImageViewContainer(imageURL: model.imageURL)
-                .frame(width: 50, height: 50)
+            ImageView(withURL: blog.imageURL)
             Text(verbatim: blog.title)
             Spacer()
         }

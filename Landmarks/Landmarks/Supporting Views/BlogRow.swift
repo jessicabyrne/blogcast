@@ -6,9 +6,12 @@ A single row to be displayed in a list of blogs.
 */
 
 import SwiftUI
+import Combine
 
 struct BlogRow: View {
+    @ObservedObject var remoteImageURL: RemoteImageURL
     var blog: Blog
+    let model: Model
 
     var body: some View {
         HStack {

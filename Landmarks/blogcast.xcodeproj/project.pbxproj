@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -50,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AFFAC3F2379FD21001A2854 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +102,7 @@
 				B73948A0229F2E1F00C47603 /* BlogList.swift */,
 				B739489E229F2D9700C47603 /* BlogRow.swift */,
 				B7394869229F194000C47603 /* BlogDetail.swift */,
+				9AFFAC40237A100B001A2854 /* ImageViewContainer.swift */,
 				B739487D229F1C0100C47603 /* Supporting Views */,
 				B7394883229F291A00C47603 /* Resources */,
 				B739486B229F194200C47603 /* Assets.xcassets */,
@@ -223,11 +225,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7394882229F28B900C47603 /* Data.swift in Sources */,
+				9AFFAC41237A100B001A2854 /* ImageViewContainer.swift in Sources */,
 				B7394866229F194000C47603 /* AppDelegate.swift in Sources */,
 				9AFFAC54237B5804001A2854 /* ImageLoader.swift in Sources */,
 				B739487A229F1B3F00C47603 /* CircleView.swift in Sources */,
 				B73948A1229F2E1F00C47603 /* BlogList.swift in Sources */,
 				B7394868229F194000C47603 /* SceneDelegate.swift in Sources */,
+				9AFFAC45237AF900001A2854 /* RemoteImageURL.swift in Sources */,
+				9AFFAC43237A1941001A2854 /* ContentView.swift in Sources */,
 				B739486A229F194000C47603 /* BlogDetail.swift in Sources */,
 				9AFFAC52237B5739001A2854 /* ImageView.swift in Sources */,
 				B739489F229F2D9700C47603 /* BlogRow.swift in Sources */,
@@ -431,6 +436,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9AFFAC3D2379FD21001A2854 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9AFFAC3E2379FD21001A2854 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9AFFAC3D2379FD21001A2854 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B739485A229F194000C47603 /* Project object */;
 }

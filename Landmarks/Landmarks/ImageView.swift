@@ -8,10 +8,13 @@
 
 import Combine
 import SwiftUI
+import UIKit
 
 struct ImageView: View {
     @ObservedObject var imageLoader:ImageLoader
     @State var image:UIImage = UIImage()
+    private var rssItems: [RSSItem]?
+
     
     init(withURL url:String) {
         imageLoader = ImageLoader(urlString:url)

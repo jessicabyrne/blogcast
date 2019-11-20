@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9AED72F923843FCF0073EEEA /* BlogParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED72F823843FCF0073EEEA /* BlogParser.swift */; };
+		9AED72FB238454540073EEEA /* BlogLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AED72FA238454540073EEEA /* BlogLoader.swift */; };
 		9AFFAC52237B5739001A2854 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFAC51237B5739001A2854 /* ImageView.swift */; };
 		9AFFAC54237B5804001A2854 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFFAC53237B5804001A2854 /* ImageLoader.swift */; };
 		B7394866229F194000C47603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7394865229F194000C47603 /* AppDelegate.swift */; };
@@ -26,6 +28,8 @@
 /* Begin PBXFileReference section */
 		19EE3BF019EE35A000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		1BD16D301BD0EC2000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		9AED72F823843FCF0073EEEA /* BlogParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogParser.swift; sourceTree = "<group>"; };
+		9AED72FA238454540073EEEA /* BlogLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogLoader.swift; sourceTree = "<group>"; };
 		9AFFAC51237B5739001A2854 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		9AFFAC53237B5804001A2854 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		B7394862229F194000C47603 /* blogcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blogcast.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,7 +54,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AFFAC3F2379FD21001A2854 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +105,6 @@
 				B73948A0229F2E1F00C47603 /* BlogList.swift */,
 				B739489E229F2D9700C47603 /* BlogRow.swift */,
 				B7394869229F194000C47603 /* BlogDetail.swift */,
-				9AFFAC40237A100B001A2854 /* ImageViewContainer.swift */,
 				B739487D229F1C0100C47603 /* Supporting Views */,
 				B7394883229F291A00C47603 /* Resources */,
 				B739486B229F194200C47603 /* Assets.xcassets */,
@@ -111,6 +113,8 @@
 				B739486D229F194200C47603 /* Preview Content */,
 				9AFFAC51237B5739001A2854 /* ImageView.swift */,
 				9AFFAC53237B5804001A2854 /* ImageLoader.swift */,
+				9AED72F823843FCF0073EEEA /* BlogParser.swift */,
+				9AED72FA238454540073EEEA /* BlogLoader.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -225,17 +229,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7394882229F28B900C47603 /* Data.swift in Sources */,
-				9AFFAC41237A100B001A2854 /* ImageViewContainer.swift in Sources */,
 				B7394866229F194000C47603 /* AppDelegate.swift in Sources */,
 				9AFFAC54237B5804001A2854 /* ImageLoader.swift in Sources */,
 				B739487A229F1B3F00C47603 /* CircleView.swift in Sources */,
 				B73948A1229F2E1F00C47603 /* BlogList.swift in Sources */,
 				B7394868229F194000C47603 /* SceneDelegate.swift in Sources */,
-				9AFFAC45237AF900001A2854 /* RemoteImageURL.swift in Sources */,
-				9AFFAC43237A1941001A2854 /* ContentView.swift in Sources */,
+				9AED72FB238454540073EEEA /* BlogLoader.swift in Sources */,
 				B739486A229F194000C47603 /* BlogDetail.swift in Sources */,
 				9AFFAC52237B5739001A2854 /* ImageView.swift in Sources */,
 				B739489F229F2D9700C47603 /* BlogRow.swift in Sources */,
+				9AED72F923843FCF0073EEEA /* BlogParser.swift in Sources */,
 				B7394881229F28B900C47603 /* Blog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +315,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -366,6 +370,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -436,25 +441,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		9AFFAC3D2379FD21001A2854 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.3.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		9AFFAC3E2379FD21001A2854 /* SDWebImage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9AFFAC3D2379FD21001A2854 /* XCRemoteSwiftPackageReference "SDWebImage" */;
-			productName = SDWebImage;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B739485A229F194000C47603 /* Project object */;
 }

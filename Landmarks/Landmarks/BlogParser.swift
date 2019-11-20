@@ -17,39 +17,42 @@ struct RSSItem {
 // download xml from a server
 // parse xml to foundation objects
 
-class BlogParser: NSObject, XMLParserDelegate
-{
+class BlogParser: NSObject, XMLParserDelegate {
+    enum Error: Swift.Error {
+        case invalidResponse
+    }
+    
+    typealias BlogParserCompletion = (Result<[RSSItem], Swift.Error>) -> Void
+    
     private var rssItems: [RSSItem] = []
     private var currentElement = ""
 
     private var currentTitle: String = "" {
         didSet {
-            currentTitle = currentTitle.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
+            currentTitle = currentTitle.trimmingCharacters(in: .whitespacesAndNewlines)
         }
     }
     private var currentDescription: String = "" {
         didSet {
-            currentDescription = currentDescription.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
+            currentDescription = currentDescription.trimmingCharacters(in: .whitespacesAndNewlines)
         }
     }
     private var currentPubDate: String = "" {
         didSet {
-            currentPubDate = currentPubDate.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
+            currentPubDate = currentPubDate.trimmingCharacters(in: .whitespacesAndNewlines)
         }
     }
-    private var parserCompletionHandler: (([RSSItem]) -> Void)?
+    private var parserCompletionHandler: BlogParserCompletion?
 
-    func parseFeed(url: String, completionHandler: (([RSSItem]) -> Void)?)
+    func parseFeed(url: String, completion: @escaping BlogParserCompletion)
     {
-        self.parserCompletionHandler = completionHandler
+        self.parserCompletionHandler = completion
 
         let request = URLRequest(url: URL(string: url)!)
         let urlSession = URLSession.shared
         let task = urlSession.dataTask(with: request) { (data, response, error) in
             guard let data = data else {
-                if let error = error {
-                    print(error.localizedDescription)
-                }
+                completion(.failure(error ?? Error.invalidResponse))
                 return
             }
 
@@ -93,12 +96,13 @@ class BlogParser: NSObject, XMLParserDelegate
     }
 
     func parserDidEndDocument(_ parser: XMLParser) {
-        parserCompletionHandler?(rssItems)
+        parserCompletionHandler?(.success(rssItems))
     }
 
-    func parser(_ parser: XMLParser, parseErrorOccurred parseError: Error)
+    func parser(_ parser: XMLParser, parseErrorOccurred parseError: Swift.Error)
     {
         print(parseError.localizedDescription)
+        parserCompletionHandler?(.failure(parseError))
     }
 
 }

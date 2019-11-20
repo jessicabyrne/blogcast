@@ -18,6 +18,17 @@ struct Blog: Hashable, Codable, Identifiable {
 }
 
 extension Blog {
+    
+    init(rssItem: RSSItem) {
+        id = 1
+        title = rssItem.title
+        description = rssItem.description
+        link = ""
+        imageURL = ""
+    }
+}
+
+extension Blog {
     var body: some View {
         HStack {
             ImageView(withURL: imageURL)

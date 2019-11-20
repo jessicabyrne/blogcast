@@ -9,18 +9,22 @@
 import Foundation
 import Combine
 
+private let feedURL = "https://appleosophy.com/feed"
 class BlogLoader: ObservableObject {
-    var dataPublisher = PassthroughSubject<Data, Never>()
-    var data = Data() {
-        didSet {
-            dataPublisher.send(data)
-        }
-    }
     
-    init(urlString:String) {
-       let feedParser = BlogParser()
-        feedParser.parseFeed(url: "https://appleosophy.com/feed") { (rssItems) in
-            self.rssItems = rssItems
-        }
+    let feedParser = BlogParser()
+
+    @Published
+    var blogs: [Blog] = []
+    
+    func load() {
+        feedParser.parseFeed(url: feedURL) { result in
+            do {
+                self.blogs = try result.get().map { Blog(rssItem: $0) }
+            } catch {
+                // todo: handle error
+            }
+
+         }
     }
 }

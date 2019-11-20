@@ -29,7 +29,7 @@
 		19EE3BF019EE35A000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		1BD16D301BD0EC2000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		9AED72F823843FCF0073EEEA /* BlogParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogParser.swift; sourceTree = "<group>"; };
-		9AED72FA238454540073EEEA /* BlogLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogLoader.swift; sourceTree = "<group>"; };
+		9AED72FA238454540073EEEA /* BlogLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogLoader.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		9AFFAC51237B5739001A2854 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		9AFFAC53237B5804001A2854 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		B7394862229F194000C47603 /* blogcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blogcast.app; sourceTree = BUILT_PRODUCTS_DIR; };
